@@ -1,0 +1,27 @@
+.darker-gray {
+  color: #777777;
+}
+
+.dark-gray {
+  color: #5f5f5f;
+}
+
+.light-gray {
+  color: #aaaaaa;
+}
+
+.weight-medium {
+  font-weight: 500;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.font-small {
+  font-size: 13px;
+}

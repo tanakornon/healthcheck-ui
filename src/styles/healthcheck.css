@@ -1,0 +1,48 @@
+.healthcheck-card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.health-ctn {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.up-card {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #f5f7fc;
+  background-color: #3fe363;
+  border-radius: 10px;
+}
+
+.down-card {
+  width: 80px;
+  height: 80px;
+  color: #777777;
+  background-color: #f5f7fc;
+  border-radius: 10px;
+}
+
+.health-card-label {
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  padding-top: 3px;
+  padding-left: 6px;
+}
+
+.health-card-value {
+  font-size: 30px;
+  font-weight: bold;
+  position: sticky;
+  line-height: 80px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}

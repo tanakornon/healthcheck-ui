@@ -1,0 +1,44 @@
+.center-screen {
+  width: 350px;
+  margin: 50px auto 0 auto;
+}
+
+.drag-and-drop {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: 2px #aaaaaa dashed;
+  border-radius: 15px;
+}
+
+.hr-line {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hr-line:before,
+.hr-line:after {
+  content: '';
+  flex: 1 1;
+  border-bottom: 1px solid #aaaaaa;
+  margin: auto;
+}
+
+.hr-line-text {
+  margin: 0px 10px;
+}
+
+.browse-file-btn {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: #6649f5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

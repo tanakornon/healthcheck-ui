@@ -1,0 +1,35 @@
+.progress-card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.progress-status {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.progress-text-ctn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  background-color: #f5f7fc;
+  position: relative;
+  height: 20px;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+}
+
+.filler {
+  height: 100%;
+  background-color: #6649f5;
+  border-radius: inherit;
+  text-align: right;
+}
